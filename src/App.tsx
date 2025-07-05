@@ -56,12 +56,8 @@ export default function App() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <img
-                src="/placeholder.svg?height=60&width=60"
-                alt="Pragma Party Logo"
-                className="h-12 w-12 rounded-full"
-              />
+            <div className="flex items-center gap-4">
+              <span className="text-4xl">🇪🇺</span>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">PRAGMA</h1>
                 <p className="text-sm text-gray-600">
@@ -164,12 +160,8 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="flex items-center justify-center space-x-4 mb-4">
-            <img
-              src="/placeholder.svg?height=40&width=40"
-              alt="Pragma Party Logo"
-              className="h-8 w-8 rounded-full"
-            />
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <span className="text-4xl">🇪🇺</span>
             <span className="text-xl font-bold">PRAGMA</span>
           </div>
           <p className="text-gray-400">
