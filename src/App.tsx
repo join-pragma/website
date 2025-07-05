@@ -89,7 +89,7 @@ export default function App() {
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
               onClick={() =>
-                (window.location.href = 'mailto:contact@pragma-party.eu')
+                (window.location.href = 'mailto:tech@joinpragma.eu')
               }
             >
               <Mail className="mr-2 h-5 w-5" />
@@ -152,7 +152,7 @@ export default function App() {
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
             onClick={() =>
               (window.location.href =
-                'mailto:contact@pragma-party.eu?subject=I want to get involved with Pragma')
+                'mailto:tech@joinpragma.eu?subject=I want to get involved with Pragma')
             }
           >
             <Mail className="mr-2 h-5 w-5" />
